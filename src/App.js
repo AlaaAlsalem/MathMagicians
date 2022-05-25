@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>
         Hello from App
-        <Calculater/>
+        <Calculater />
       </h1>
     </div>
   );

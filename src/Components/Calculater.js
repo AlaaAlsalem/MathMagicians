@@ -1,12 +1,8 @@
+const Calculater = () => (
+  <div>
+    <h1>Hello from Calculater</h1>
 
-
-const Calculater = () =>{
-    return (
-        <div>
-            <h1>Hello from Calculater</h1>
-            
-        </div>
-    );
-}
+  </div>
+);
 
 export default Calculater;
