@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Calculater from './Components/Calculater';
 
-class App extends React.Component {
+class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
