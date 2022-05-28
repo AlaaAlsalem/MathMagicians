@@ -1,9 +1,8 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import './Calculater.css';
 import calculate from '../logic/calculate';
 
-const Calculater = () =>  {
-
+const Calculater = () => {
   const [item, setItem] = useState({
     total: 0,
     next: null,

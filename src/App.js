@@ -9,7 +9,7 @@ class App extends React.PureComponent {
         <h1>
           Hello from App
         </h1>
-          <Calculater />
+        <Calculater />
 
       </div>
     );
