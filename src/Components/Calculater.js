@@ -4,8 +4,11 @@ import './Calculater.css';
 class Calculater extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
-  }
+    this.state = {
+      total: 0,
+      next: null,
+      operation: null,
+    };  }
 
   render() {
     return (
