@@ -1,17 +1,14 @@
-import Calculater from '../Components/Calculater'
+import Calculater from '../Components/Calculater';
 
-const Calculator = () => {
+const Calculator = () => (
+  <div className="calcSections">
+    <div>
+      <h3> Lets do some Math</h3>
+    </div>
+    <div className="calculatorSection">
+      <Calculater />
+    </div>
+  </div>
+);
 
-    return (
-        <div className='calcSections'>
-            <div>
-                <h3> Let's do some Math</h3>
-            </div>
-            <div className='calculatorSection'>
-                <Calculater/>
-            </div>
-        </div>
-    )
-}
-
-export default Calculator
+export default Calculator;
