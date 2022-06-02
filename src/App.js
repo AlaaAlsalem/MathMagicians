@@ -1,16 +1,29 @@
 import React from 'react';
 import './App.css';
-import Calculater from './Components/Calculater';
+import { Route, Switch } from 'react-router-dom';
+import Calculator from './pages/Calculator';
+import Home from './pages/Home';
+import Quote from './pages/Quote';
+import Navbar from './pages/Navbar';
 
 class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
-        <h1>
-          Hello from App
-        </h1>
-        <Calculater />
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
 
+            <Home />
+
+          </Route>
+          <Route exact path="/calculator">
+            <Calculator />
+          </Route>
+          <Route exact path="/quote">
+            <Quote />
+          </Route>
+        </Switch>
       </div>
     );
   }
