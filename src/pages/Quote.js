@@ -3,15 +3,10 @@
 const Quote = () => {
 
     return (
-        <div>
-            <p>
-                Mathmatics is not about numbers, equations, computations,
-            </p>
-            <p>
-                or algorithm: it is about undrstanding -William Poul Thurston 
-
-            </p>
-        </div>
+        <blockquote style={{ marginTop: '10%' }}>
+        The definition of a good mathematical problem is the mathematics it generates, rather
+        than the problem itself. -Andrew Wiles
+      </blockquote>
     )
 }
 export default Quote;
