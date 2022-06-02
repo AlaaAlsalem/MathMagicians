@@ -5,7 +5,6 @@ const Calculator = () => {
     return (
         <div>
             <div>
-                <h1>Math Magicians </h1>
                 <h3> Let's do some Math</h3>
             </div>
             <div>
