@@ -9,14 +9,13 @@ import Navbar from './pages/Navbar';
 class App extends React.PureComponent {
   render() {
     return (
-      <>
+      <div className="App">
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <div className="App">
-              <Home />
 
-            </div>
+            <Home />
+
           </Route>
           <Route exact path="/calculator">
             <Calculator />
@@ -25,7 +24,7 @@ class App extends React.PureComponent {
             <Quote />
           </Route>
         </Switch>
-      </>
+      </div>
     );
   }
 }
